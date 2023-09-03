@@ -9,10 +9,11 @@ namespace Victory
         virtual ~Application();
 
         void Run();
-    private:
-        bool m_IsRunning{true};
 
+    private:
         static Application* s_Instance;
+
+        bool m_IsRunning{true};
     };
 
     Application* CreateApplication();
