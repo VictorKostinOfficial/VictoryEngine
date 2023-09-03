@@ -2,6 +2,7 @@
 
 // ________Engine Includes________
 #include "Victory/Application.h"
+#include "Victory/Log.h"
 // _______________________________
 
 // __________EntryPoint___________

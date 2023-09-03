@@ -9,5 +9,6 @@ file(GLOB_RECURSE Sources
 )
 
 include_directories(src)
-include_directories(thirdparty/spdlog/include)
+include_directories(external/spdlog/include)
+
 add_library(Victory STATIC ${Headers} ${Sources})

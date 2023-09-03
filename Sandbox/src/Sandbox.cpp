@@ -1,12 +1,10 @@
 #include <Victory.h>
 
-class Sandbox : public Victory::Application
+class Sandbox final: public Victory::Application
 {
 public:
-    Sandbox(){};
-
+    Sandbox() = default;
     ~Sandbox() = default;
-
 };
 
 Victory::Application* Victory::CreateApplication()

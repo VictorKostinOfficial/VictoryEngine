@@ -9,5 +9,8 @@ file(GLOB_RECURSE Sources
 )
 
 link_libraries(Victory)
+
 include_directories(../Victory/src)
+include_directories(../Victory/external/spdlog/include)
+
 add_executable(Sandbox src/Sandbox.cpp)
